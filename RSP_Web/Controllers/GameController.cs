@@ -13,5 +13,25 @@ namespace RSP_Web.Controllers
         {
             return View();
         }
+        
+       
+        public IActionResult Won()
+        {
+            return View();
+        }
+        public IActionResult Drow()
+        {
+            return View();
+        }
+        public IActionResult Victory()
+        {
+            return View();
+        }
+        /*  [HttpPost]
+        public IActionResult Add(Project project)
+        {
+            ProjectStorage.Add(project);
+            return RedirectToAction("Index");
+        }*/
     }
 }
