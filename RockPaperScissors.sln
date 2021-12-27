@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockPaperScissors_Core", "RockPaperScissors\RockPaperScissors_Core.csproj", "{AAA226F9-0EA4-49AD-B198-97874C203878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPS_draft", "RPS_draft\RPS_draft.csproj", "{F47F9ED1-62D1-44D9-B46E-5914B73F16D0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSP_console", "RSP_console\RSP_console.csproj", "{7C8A001B-B674-4191-BA0D-DD193511A8C6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rspcon", "rspcon\rspcon.csproj", "{E4FADE13-2EFB-422F-B3F0-7AAC46DDC350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSP_Web", "RSP_Web\RSP_Web.csproj", "{EA598F71-465B-49EB-9C80-E958554F1F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSP_API", "RSP_API\RSP_API.csproj", "{51D46C4D-34F5-4B81-BE1D-A0CB9E279D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{AAA226F9-0EA4-49AD-B198-97874C203878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA226F9-0EA4-49AD-B198-97874C203878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA226F9-0EA4-49AD-B198-97874C203878}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F47F9ED1-62D1-44D9-B46E-5914B73F16D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F47F9ED1-62D1-44D9-B46E-5914B73F16D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F47F9ED1-62D1-44D9-B46E-5914B73F16D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F47F9ED1-62D1-44D9-B46E-5914B73F16D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C8A001B-B674-4191-BA0D-DD193511A8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C8A001B-B674-4191-BA0D-DD193511A8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C8A001B-B674-4191-BA0D-DD193511A8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C8A001B-B674-4191-BA0D-DD193511A8C6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E4FADE13-2EFB-422F-B3F0-7AAC46DDC350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E4FADE13-2EFB-422F-B3F0-7AAC46DDC350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4FADE13-2EFB-422F-B3F0-7AAC46DDC350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4FADE13-2EFB-422F-B3F0-7AAC46DDC350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA598F71-465B-49EB-9C80-E958554F1F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA598F71-465B-49EB-9C80-E958554F1F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA598F71-465B-49EB-9C80-E958554F1F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA598F71-465B-49EB-9C80-E958554F1F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D46C4D-34F5-4B81-BE1D-A0CB9E279D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D46C4D-34F5-4B81-BE1D-A0CB9E279D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D46C4D-34F5-4B81-BE1D-A0CB9E279D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D46C4D-34F5-4B81-BE1D-A0CB9E279D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

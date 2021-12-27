@@ -20,59 +20,59 @@ namespace RockPaperScissors_Core
         //1-ножницы
         //2-бумага
 
-        static public Player Won(int q)
-        {
-            q = 0;
-            return Won(q);
-        }
+        //static public int Won(int q)
+        //{
+        //    return 0;
+        //}
 
-        static public Player Victory(int b)
-        {
-            b = 1;
-            return Victory(b);
-        }
+        //static public int Victory(int b)
+        //{
+        //    return 1;
+        //}
 
-        static public Player Draw(int d)
+        //static public int Draw(int d)
+        //{
+        //    return 2;
+        //}
+        static public int XodPlayers(int xodPlayer, int xodProtivnika)
         {
-            d = 2;
-            return Draw(d);
-        }
-        static public Player XodPlayers(int xodPlayer, int xodProtivnika, int q, int w, int e)
-        {
-            //q = 0
-            //w=1
-            //e=2
             //rock
             if (xodPlayer == 0)
             {
                 if (xodProtivnika == 0)
-                    return Draw(2);
+                    return 1;
                 else if (xodProtivnika == 1)
-                    return Won(0);
+                    return 0;
                 else
-                    return Victory(1);
+                    return 2;
             }
             //scissors
             else if (xodPlayer == 1)
             {
                 if (xodProtivnika == 0)
-                    return Victory(1);
+                    return 1;
                 else if (xodProtivnika == 1)
-                    return Draw(2);
+                    return 2;
                 else
-                    return Won(0);
+                    return 0;
             }
             //paper
             else
             {
                 if (xodProtivnika == 0)
-                    return Won(0);
+                    return 0;
                 else if (xodProtivnika == 1)
-                    return Victory(1);
+                    return 1;
                 else
-                    return Draw(2);
+                    return 2;
             }
-
         }
+    }
+
+    public class Figure
+    {
+        public int ID { get; set; }
+        public int Name { get; set; }
+        public int Opponent { get; set; }
     }
 }
