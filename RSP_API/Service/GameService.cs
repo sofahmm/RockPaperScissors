@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using RockPaperScissors_Core;
 
+//неиспользуемые using
+
 namespace RSP_API.Service
 {
     public class GameService
     {
         static List<Figure> figures { get; }
-        static int nextId = 3;
+        static int nextId = 3;  //magic numbers
         static GameService()
         {
             figures = new List<Figure>
@@ -33,14 +35,14 @@ namespace RSP_API.Service
         {
             var figure = Get(id);
             if (figure is null)
-                return;
+                return; // неправильная обработка ошибок
             figures.Remove(figure);
         }
         public static void Update(Figure figure)
         {
             var index = figures.FindIndex(f => f.ID == figure.ID);
             if (index == -1)
-                return;
+                return; //// неправильная обработка ошибок
             figures[index] = figure;
         }
     }

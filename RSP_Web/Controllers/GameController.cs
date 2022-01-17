@@ -27,6 +27,7 @@ namespace RSP_Web.Controllers
         {
             return View();
         }
+        // неиспользованный кусок кода, удалить
         /*  [HttpPost]
         public IActionResult Add(Project project)
         {
