@@ -22,7 +22,7 @@ namespace RSP_API.Controllers
         {
             _logger = logger;
         }
-
+        //можно лучше: лучший комментарий
         //public void Met(int n, int m)
         //{
         //    return Player.XodPlayers(n, m);

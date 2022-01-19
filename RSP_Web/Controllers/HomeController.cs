@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RSP_Web.Controllers
+namespace RSP_Web.Controllers // хорошо: простой контроллер
 {
     public class HomeController : Controller
     {

@@ -20,6 +20,8 @@ namespace RockPaperScissors_Core
         //1-ножницы
         //2-бумага
 
+        // обязательно исправить: в итоговой версии не должно быть не используемых фрагментов кода
+
         //static public int Won(int q)
         //{
         //    return 0;
@@ -68,7 +70,7 @@ namespace RockPaperScissors_Core
             }
         }
     }
-
+    // можно лучше: новый класс следует вынести в отдельный файл
     public class Figure
     {
         public int ID { get; set; }
